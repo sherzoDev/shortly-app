@@ -1,0 +1,53 @@
+/* General */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #EFF1F7;
+}
+
+/* Sticky-Footer */
+.site-main {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+/* General Styles  */
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
